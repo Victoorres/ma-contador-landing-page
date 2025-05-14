@@ -503,7 +503,7 @@ export default function Home() {
                     size="lg"
                     className="sm:hidden border-white text-slate-700 hover:bg-slate-300 hover:text-slate-900"
                   >
-                    <a href="tel:+5500000000000" className="flex items-center gap-2">
+                    <a href="tel:+556294342088" className="flex items-center gap-2">
                       <Phone className="h-5 w-5" />
                       Ligue Agora
                     </a>
