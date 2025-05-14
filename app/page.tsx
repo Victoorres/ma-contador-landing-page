@@ -501,7 +501,7 @@ export default function Home() {
                     asChild
                     variant="outline"
                     size="lg"
-                    className="sm:hidden border-white text-white hover:bg-white hover:text-slate-900"
+                    className="sm:hidden border-white text-slate-700 hover:bg-slate-300 hover:text-slate-900"
                   >
                     <a href="tel:+5500000000000" className="flex items-center gap-2">
                       <Phone className="h-5 w-5" />
