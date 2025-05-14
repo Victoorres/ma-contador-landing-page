@@ -54,14 +54,14 @@ export default function Home() {
         <div className="container flex h-20 items-center justify-between">
           <Logo />
           <nav className="hidden md:flex md:gap-6">
-            <Link href="#servicos" className="text-sm font-medium transition-colors hover:text-amber-500">
-              Serviços
+            <Link href="#sobre" className="text-sm font-medium transition-colors hover:text-amber-500">
+              Sobre
             </Link>
             <Link href="#regimes" className="text-sm font-medium transition-colors hover:text-amber-500">
               Regimes
             </Link>
-            <Link href="#sobre" className="text-sm font-medium transition-colors hover:text-amber-500">
-              Sobre
+            <Link href="#servicos" className="text-sm font-medium transition-colors hover:text-amber-500">
+              Serviços
             </Link>
             <Link href="#depoimentos" className="text-sm font-medium transition-colors hover:text-amber-500">
               Depoimentos
@@ -93,11 +93,11 @@ export default function Home() {
             <div className="bg-gradient-to-b from-slate-800 to-slate-900 py-4 px-6 shadow-lg">
               <nav className="flex flex-col space-y-4">
                 <Link
-                  href="#servicos"
+                  href="#sobre"
                   className="flex items-center py-2 text-white hover:text-amber-500"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Serviços
+                  Sobre
                 </Link>
                 <Link
                   href="#regimes"
@@ -107,12 +107,13 @@ export default function Home() {
                   Regimes
                 </Link>
                 <Link
-                  href="#sobre"
+                  href="#servicos"
                   className="flex items-center py-2 text-white hover:text-amber-500"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Sobre
+                  Serviços
                 </Link>
+
                 <Link
                   href="#depoimentos"
                   className="flex items-center py-2 text-white hover:text-amber-500"
